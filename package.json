@@ -1,5 +1,5 @@
 {
-  "name": "aplinejs-animate",
+  "name": "alpinejs-animate",
   "version": "0.1.0",
   "description": "An Alpine.js plugin to animate your website.",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdelhamiderrahmouni/aplinejs-animate.git"
+    "url": "git+https://github.com/abdelhamiderrahmouni/alpinejs-animate.git"
   },
   "keywords": [
     "alpinejs",
@@ -20,7 +20,7 @@
   "author": "Abdelhamid Errahmouni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abdelhamiderrahmouni/aplinejs-animate/issues"
+    "url": "https://github.com/abdelhamiderrahmouni/alpinejs-animate/issues"
   },
-  "homepage": "https://github.com/abdelhamiderrahmouni/aplinejs-animate#readme"
+  "homepage": "https://github.com/abdelhamiderrahmouni/alpinejs-animate#readme"
 }
