@@ -1,5 +1,5 @@
 {
-  "name": "aplinejs-animate",
+  "name": "alpinejs-animate",
   "version": "0.1.0",
   "description": "An Alpine.js plugin to animate your website.",
   "main": "src/index.js",
