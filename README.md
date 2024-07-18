@@ -11,6 +11,26 @@ This package provides a simple way to animate elements using Alpine.js and Anima
 npm install alpinejs-animate
 ```
 
+### Importing
+You can import the package in your JavaScript file:
+```js
+import Animate from 'alpinejs-animate';
+
+Alpine.plugin(Animate);
+
+Alpine.start();
+```
+
+Note: Animate can be changed to any name you prefer.
+
+```js
+import AlpineAnimate from 'alpinejs-animate';
+
+Alpine.plugin(AlpineAnimate);
+
+Alpine.start();
+```
+
 ## Basic Usage
 
 ```html
