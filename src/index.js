@@ -33,7 +33,7 @@ export default function (Alpine) {
             expression.split(" ").forEach(c => classes.push(`animate__${c}`));
 
             let runAnimation = () => {
-                el.classList.remove('invisible');
+                el.style.visibility = 'visible';
                 el.classList.add(...classes);
                 el.style.setProperty('--animate-duration', `${duration / 1000}s`);
 
@@ -58,7 +58,7 @@ export default function (Alpine) {
         };
 
         // Initially hide the element using a class
-        el.classList.add('invisible');
+        el.style.visibility = 'hidden';
 
         // If the user want to animate the element when it intersects with the viewport
         if (modifiers.includes('intersect')) {
